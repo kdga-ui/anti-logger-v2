@@ -12,4 +12,5 @@ getfenv().whitelist = {} -- example "https://google.com
 getfenv()._blockwebhook = true
 getfenv().DEBUG = false
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kdga-ui/anti-logger-v2/refs/heads/main/Anti%20logging.lua"))()```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kdga-ui/anti-logger-v2/refs/heads/main/Anti%20logging.lua"))()
+```
