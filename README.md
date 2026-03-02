@@ -5,10 +5,10 @@ This script is meant to be used in a roblox executor, it protects you against ip
 ### for more customization, use this script
 ```lua
 getfenv().Custom_Blacklist = {
-    -- "https://hi.com"
+    -- example "https://hi.com"
 } 
 
-getfenv().whitelist = {}
+getfenv().whitelist = {} -- example "https://google.com
 getfenv()._blockwebhook = true
 getfenv().DEBUG = false
 
